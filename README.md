@@ -1,2 +1,2 @@
 # C programs
-All C programs for third semester, Data Structure and analysis.
+All C programs for 3rd sem Data Structure and applications.
