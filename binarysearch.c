@@ -13,9 +13,15 @@ int binary(int n,int a[n],int ele,int b,int e)
             break;
         }
         else if(a[mid]>ele)
-          binary(n,a,ele,b,mid-1);
+        {
+          e=mid-1;
+          binary(n,a,ele,b,e);
+        }    
         else
-          binary(n,a,ele,mid+1,e);
+        {
+          b=mid+1;  
+          binary(n,a,ele,b,e);
+        }    
     }
     return f;
 }
